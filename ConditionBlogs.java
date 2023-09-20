@@ -11,7 +11,7 @@ public class ConditionBlogs {
 		}else if(num1 == 30) {
 			System.out.println("Sayı 30 a eşit ise");
 		}else {
-			System.out.print("sayi 30 dan küçüktür");
+			System.out.println("sayi 30 dan küçüktür");
 		}
 		
 		
