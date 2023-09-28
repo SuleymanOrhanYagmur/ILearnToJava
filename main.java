@@ -11,6 +11,11 @@ public class main {
 		System.out.println("Ogrenci sayim: "+numberofstudents);
 		System.out.println(message + numberofstudents);
 		
+		classs classs = new classs();
+		
+		classs.Add();
+		classs.Remove();
+		classs.Update();
 		
 
 	}
