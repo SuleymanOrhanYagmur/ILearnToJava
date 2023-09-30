@@ -43,9 +43,9 @@ public class main {
 		
 		//CCLASS HESAP MAKİNESİ İÇİN
 		
-		//ClassHesapMakinesi classHesapMakinesi = new 
-		
-		
+		ClassHesapMakinesi classHesapMakinesi = new ClassHesapMakinesi();
+		int sonuc = classHesapMakinesi.Topla(3,4);
+		System.out.println(sonuc);
 
 	}
 
