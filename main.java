@@ -46,6 +46,17 @@ public class main {
 		ClassHesapMakinesi classHesapMakinesi = new ClassHesapMakinesi();
 		int sonuc = classHesapMakinesi.Topla(3,4);
 		System.out.println(sonuc);
+		
+		// ENCAPSULATİON İŞLEMLERİ
+		
+		Product product = new Product();
+		
+		product.name = "Laptop";
+		product.id = 1;
+		product.description = "Asus laptop";
+		product.stockAmount = 3;
+		
+		System.out.println(product.name);
 
 	}
 
