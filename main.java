@@ -56,7 +56,14 @@ public class main {
 		product.description = "Asus laptop";
 		product.stockAmount = 3;
 		
-		System.out.println(product.name);
+		
+		ProductManager productManager = new ProductManager();
+		productManager.Add(product); // yukarda elimizde olan veriyi yazdık
+		
+		
+		
+		
+		
 
 	}
 
