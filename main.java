@@ -59,6 +59,9 @@ public class main {
 		
 		ProductManager productManager = new ProductManager();
 		productManager.Add(product); // yukarda elimizde olan veriyi yazdık
+		// sonradan veri eklememiz gerekseydi ürün fiyatı veri tabanına aktarırken minimum 0 olmasını istiyoruz
+		// kural koymak falan istiyoruz - olamaz falan gibi
+		// BUNUN İÇİNDE ENCAPSULATİONDAN YARARLANIYORUZ 
 		
 		
 		
