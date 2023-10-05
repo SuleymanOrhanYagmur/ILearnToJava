@@ -51,10 +51,11 @@ public class main {
 		
 		Product product = new Product();
 		
-		product.name = "Laptop";
-		product.id = 1;
-		product.description = "Asus laptop";
-		product.stockAmount = 3;
+		// product.name = "Laptop"; BU KULLANIIM PRİVATE OLANLARDA ÇALIŞMAZ ONUN YERİNE ALTTAKİ FORMATTA OLUR
+		product.setId("LAPTOP");
+		product.setId(1);
+		//product.description = "Asus laptop"; YORUM HALİNİ İPTAL ET
+		//product.stockAmount = 3; YORUM HALİNİ İPTAL ET
 		
 		
 		ProductManager productManager = new ProductManager();
