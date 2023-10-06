@@ -1,6 +1,9 @@
 
 public class Product {
 	
+	public Product() {
+		System.out.println("CONSSTRUCT (YAPICI) BLOG ÇALIŞTI");
+	}
 
 
 		
